@@ -1,0 +1,87 @@
+[
+  {
+    "description": "The T8020 Osceola County Membership Token is a limited-edition ERC-1155 token on the Polygon network, granting exclusive access to premier T8020 Community events and governance in Osceola, Florida\u2014a vibrant hub attracting 75 million visitors annually to iconic destinations like Disney World, Universal, and Sea World. Powered by blockchain and AI-driven verification, this token empowers holders to combat misinformation, promoting transparency and truth within the Osceola community. Early adopters gain priority access to local events, exclusive educational content tailored to Osceola\u2019s unique cultural and social landscape, and enhanced influence in community governance. Join a visionary Osceola-based community dedicated to trust, connection, and honest information sharing.",
+    "collection": {
+      "name": "T8020 Osceola Membership Token",
+      "contractAddress": "0xaB7Aa313dc2E5F57DfD283a709466CAaa2b9366a",
+      "family": "T8020 Community"
+    },
+    "metadataVersion": "1.0.0",
+    "background_color": "#000000",
+    "symbol": "T8020OSC",
+    "license": {
+      "type": "CC BY-NC 4.0",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    "external_url": "https://t8020osceola.com",
+    "frontendImplementation": {
+      "component": "ClaimButton",
+      "purpose": "Facilitates claiming the T8020 Osceola Membership Token (tokenId: 0) from the Edition Drop contract on Polygon using the React SDK.",
+      "url": "https://t8020-osceola-membership-token.vercel.app/",
+      "instructions": "Link your approved crypto wallet to the Polygon network and use the Claim Button on a T8020 Community-approved site to complete KYC verification, securing your exclusive token effortlessly."
+    },
+    "metadataIntegrity": {
+      "hash": "3dce8bf67a8adac58953fd57afd5ed16d94de6de30d8d86965f213918d049203",
+      "note": "Metadata uploaded to IPFS at CID ipfs://bafkreiaecy3z5ll5aqyhgrg2v652nh2gc355rtahlh64uwt64kdwccb5ha and hash verified"
+    },
+    "image": "ipfs://bafybeib2ss4qog6zb7peq33v4dnm7ixgcskanqm7jwnhqtjv5aa4nythqq",
+    "attributes": [
+      {
+        "trait_type": "Rarity",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Level",
+        "value": "10"
+      },
+      {
+        "trait_type": "Color",
+        "value": "Transparent"
+      },
+      {
+        "trait_type": "Network",
+        "value": "Polygon"
+      },
+      {
+        "trait_type": "Token Standard",
+        "value": "ERC-1155"
+      },
+      {
+        "trait_type": "Membership Type",
+        "value": "Osceola Membership Token Holder"
+      },
+      {
+        "trait_type": "Governance Rights",
+        "value": "Voting"
+      },
+      {
+        "trait_type": "Event Access",
+        "value": "Exclusive"
+      },
+      {
+        "trait_type": "Issue Date",
+        "value": "2025-09-20"
+      }
+    ],
+    "creator": {
+      "name": "T8020 Osceola Membership Token",
+      "website": "https://t8020osceola.com",
+      "token_address": "0xaB7Aa313dc2E5F57DfD283a709466CAaa2b9366a"
+    },
+    "royalties": {
+      "recipient": "0x85395CbAC236Ca8565E04dB34b24c41d1d0A262a",
+      "percentage": 5
+    },
+    "privacy_policy": {
+      "cid": "bafkreifwrlph3zz3ztvyoatywqzetabum33orz43hhmg37pe3k6ozd6mie",
+      "url": "https://ipfs.io/ipfs/bafkreifwrlph3zz3ztvyoatywqzetabum33orz43hhmg37pe3k6ozd6mie"
+    },
+    "tokenId": 0,
+    "supply": "1500000",
+    "name": "T8020 Osceola Membership Token",
+    "properties": {
+      "token_type": "semi-fungible",
+      "mint_price": "5 POL"
+    }
+  }
+]
