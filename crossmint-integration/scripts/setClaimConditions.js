@@ -9,27 +9,27 @@ async function setClaimConditions() {
     const claimConditions = [
         {
             startTimestamp: 1746057600,
-            maxClaimableSupply: "200vic000000",
-            quantityLimitPerWallet: "10000",
-            pricePerToken: "5000000000000000000", // 5 MATIC
+            maxClaimableSupply: 1500000,
+            quantityLimitPerWallet: 10000,
+            pricePerToken: 5000000000000000000, // 5 MATIC
             currency: "0x0000000000000000000000000000000000001010", // MATIC
-            merkleRoot: "0x0000000000000000000000000000000000000000000000000000000000000000",
+            merkleRoot: 0x0000000000000000000000000000000000000000000000000000000000000000,
         },
         {
             startTimestamp: 1746057605,
-            maxClaimableSupply: "200000000",
-            quantityLimitPerWallet: "10000",
-            pricePerToken: "5000000000000000000",
+            maxClaimableSupply: 1500000,
+            quantityLimitPerWallet: 10000,
+            pricePerToken: 5000000000000000000,
             currency: "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
-            merkleRoot: "0x0000000000000000000000000000000000000000000000000000000000000000",
+            merkleRoot: 0x0000000000000000000000000000000000000000000000000000000000000000,
         },
         {
             startTimestamp: 1746057610,
-            maxClaimableSupply: "200000000",
-            quantityLimitPerWallet: "10000",
-            pricePerToken: "900000000000000000",
+            maxClaimableSupply: 1500000,
+            quantityLimitPerWallet: 10000,
+            pricePerToken: 900000000000000000,
             currency: "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
-            merkleRoot: "0x0000000000000000000000000000000000000000000000000000000000000000",
+            merkleRoot: 0x0000000000000000000000000000000000000000000000000000000000000000,
         },
     ];
 
