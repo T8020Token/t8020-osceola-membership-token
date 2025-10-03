@@ -23,7 +23,7 @@ export default function Home() {
     // Debug logging
     console.log("Crossmint Config:", {
         clientApiKey: clientApiKey ? "Set" : "Missing",
-        collectionLocator: "crossmint:0bd60dbe-1756-4b07-9dc3-1e6ddc3161dc",
+        collectionLocator: "crossmint:4f49ff00-a70c-429c-acba-9e3c4f3866fa",
         quantity,
         totalPrice: (quantity * 5).toString(),
         tokenId: 0
@@ -44,7 +44,7 @@ export default function Home() {
             <CrossmintProvider apiKey={clientApiKey} environment="production">
                 <CrossmintHostedCheckout
                     lineItems={{
-                        collectionLocator: `crossmint:0bd60dbe-1756-4b07-9dc3-1e6ddc3161dc`,
+                        collectionLocator: `crossmint:4f49ff00-a70c-429c-acba-9e3c4f3866fa`,
                         callData: {
                             totalPrice: (quantity * 5).toString(), // 5 POL per token
                             quantity: quantity, // Number of NFTs
